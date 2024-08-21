@@ -1,0 +1,238 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif;
+
+}
+
+body{
+    background:rgb(9, 9, 9);
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+}
+
+.header-section{
+    position: auto ;
+    top:0;
+    left: 0;
+    margin-top: 57px;
+    width: 100%;
+    padding: 20px 15%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 36px;
+    color: #E6533C;
+    font-weight: bolder;
+}
+
+.navbar{
+    border: solid 2px #ffffff18;
+    width: 474px;
+    height: 46px;
+    border-radius: 39px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: auto;
+}
+
+.navbar a{
+    font: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 35px ;
+}
+.custome-btn{
+    background-color: #E6533C;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 46px;
+}
+
+
+/* nav section ended */
+
+.home{
+    height: 100vh;
+    padding: 0 15%;
+    align-items: center;
+}
+
+.home-conteinar{
+    position: relative;
+    max-width: 600px;
+    padding-top: 96px;
+}
+
+.home-conteinar h1{
+    font-size:78px ;
+    width: 520px;
+    color: white;
+    line-height: 1;
+
+}
+
+.banner-img img{
+    position: absolute;
+    left: 570px;
+    bottom: 40px;
+    left: 530px;
+    top: 10px;
+
+}
+
+.home-conteinar .miama-font{
+    font-family: 'Miama', sans-serif;
+}
+
+.home-conteinar p{
+    font-size: 16px;
+    padding: 20px 0px 100px;
+    opacity:50%;
+}
+
+
+.home-conteinar .btn-box{
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    gap: 14px;
+    
+}
+
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 100%;
+    background: #E6533C;
+    border: 2px solid #ffffff 5px 10px ;
+    border-radius: 42px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    border: 1px  solid white;
+}
+
+.btn-box a:nth-child(1){
+    border: none;
+}
+
+/* ended hedear section */
+
+
+.change-your-habits{
+   width: 100%;
+}
+
+.change-your-habits .container{
+    width: 80%;
+    margin: auto;
+}
+
+.change-your-habits .container .row{
+    width: 60%;
+    margin: auto;
+}
+
+.change-your-habits .container .row .title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.change-your-habits .container .row .title h1{
+    font-size: 48px;
+    color: white;
+}
+
+.change-your-habits .container .row .title p{
+    font-size: 14px;
+    margin: 30px 0px;
+    color: white;
+    opacity: 50%;
+    display: inline-block;
+}
+
+.change-your-habits .container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.change-your-habits .container .team-card .card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.change-your-habits .container .team-card .card .image-section img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.169);
+}
+
+.change-your-habits .container .team-card .card .content{
+    width: 100%;
+    text-align: center;
+}
+
+.change-your-habits .container .team-card .card .content h3{
+    font: 18px;
+    margin-top: 30px;
+    color: white;
+}
+
+.change-your-habits .container .team-card .card .content p{
+    font-size: 14px;
+    color: white;
+    margin-top: 6px;
+    opacity: 50%;
+    display: block;
+}
+
+/* Responsive Mini Device */
+
+@media screen and (max-width: 900px){
+    .change-your-habits .container .team-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 764px){
+    .change-your-habits .container .team-card{
+        grid-template-columns:1fr;
+    }
+    
+}
